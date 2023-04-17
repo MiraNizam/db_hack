@@ -38,7 +38,7 @@ python manage.py shell
 
 Импортируем необходимые объекты и функцию из скрипта:
 ```
->>> from datacenter.get_schoolkid import get_schoolkid
+>>> from datacenter.remove_chastisements import remove_chastisements
 >>> from datacenter.models import Chastisement
 ```
 Запускаем функцию, уточняя Имя и Фамилию ученика:
@@ -54,7 +54,7 @@ python manage.py shell
 Импортируем необходимые объекты и функцию из скрипта:
 ```
 >>> import random
->>> from datacenter.get_schoolkid import get_schoolkid
+>>> from datacenter.create_commendation import create_commendation
 >>> from datacenter.models import Subject, Lesson, Commendation
 ```
 
